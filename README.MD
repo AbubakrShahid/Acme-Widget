@@ -4,6 +4,30 @@ This is a Ruby-based proof of concept for Acme Widget Co’s new sales system. I
 
 ---
 
+## Setup Instructions
+
+### 1. **Install Dependencies**
+
+To get started, install the required dependencies using `Bundler`. Ensure you have [Bundler](https://bundler.io/) installed, and then run:
+
+```bash
+bundle install
+```
+
+### 2. **Running Tests**
+
+```
+rspec
+```
+
+### 3. **Executing the Application**
+
+```
+ruby basket.rb
+```
+
+---
+
 ## ✨ Features
 
 - Add items to basket using product codes (`B01`, `G01`, `R01`)
